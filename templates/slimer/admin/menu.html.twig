@@ -1,0 +1,125 @@
+{% extends 'backOffice.html.twig' %}
+
+{% block title %}Menu{% endblock %}
+
+{% block body %}
+
+<section class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-head">
+                <div class="card-header">
+                    <h4 class="card-title"></h4>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-outline-warning block btn-lg" data-toggle="modal" data-target="#inlineForm">
+                            Launch Modal
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade text-left" id="inlineForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel33" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <label class="modal-title text-text-bold-600" id="myModalLabel33">Inline Login Form</label>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <form action="#">
+                                        <div class="modal-body">
+                                            <label>Email: </label>
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Email Address" class="form-control">
+                                            </div>
+
+                                            <label>Password: </label>
+                                            <div class="form-group">
+                                                <input type="password" placeholder="Password" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <input type="reset" class="btn btn-outline-secondary btn-lg" data-dismiss="modal" value="close">
+                                            <input type="submit" class="btn btn-outline-primary btn-lg" value="Login">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-content">
+                <div class="card-body">
+                    <!-- Invoices List table -->
+                    <div class="table-responsive">
+                        <table id="invoices-list" class="table table-white-space table-bordered row-grouping display no-wrap icheck table-middle">
+                            <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Invoice #</th>
+                                <th>Order No</th>
+                                <th>Customer Name</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>06/05/201</td>
+                                <td><a href="#" class="text-bold-600">INV-001001</a></td>
+                                <td>PO-005201</td>
+                                <td>Elizabeth Washington</td>
+                                <td>
+                                    <span class="dropdown">
+                                        <button id="btnSearchDrop27" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="btn btn-primary dropdown-toggle dropdown-menu-right"><i class="ft-settings"></i></button>
+                                        <span aria-labelledby="btnSearchDrop27" class="dropdown-menu mt-1 dropdown-menu-right">
+                                            <a href="#" class="dropdown-item"><i class="la la-eye"></i> Open Task</a>
+                                            <a href="#" class="dropdown-item"><i class="la la-pencil"></i> Edit Task</a>
+                                            <a href="#" class="dropdown-item"><i class="la la-check"></i> Complete Task</a>
+                                            <a href="#" class="dropdown-item"><i class="ft-upload"></i> Assign to</a>
+                                            <a href="#" class="dropdown-item"><i class="la la-trash"></i> Delete Task</a>
+                                        </span>
+                                    </span>
+                                </td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <th>Date</th>
+                                <th>Invoice #</th>
+                                <th>Order No</th>
+                                <th>Customer Name</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/vendors/css/forms/icheck/icheck.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/vendors/css/forms/icheck/custom.css') }}">
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('app-assets/js/scripts/forms/select/form-select2.js') }}"></script>
+    <script src="{{ asset('app-assets/js/scripts/modal/components-modal.js') }}"></script>
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="{{ asset('app-assets/vendors/js/tables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('app-assets/vendors/js/tables/datatable/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('app-assets/vendors/js/forms/icheck/icheck.min.js') }}"></script>
+    <!-- END: Page Vendor JS-->
+    <!-- BEGIN: Page JS-->
+    <script src="{{ asset('app-assets/js/scripts/pages/menu-list.js') }}"></script>
+    <!-- END: Page JS-->
+
+{% endblock %}
