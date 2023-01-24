@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel | {% block title %}{% endblock %}</title>
+    <link rel="icon" href="#">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/vendors/css/vendors.min.css') }}">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/css/bootstrap-extended.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/css/colors.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/css/components.css') }}">
+    <!-- END: Theme CSS-->
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/css/core/menu/menu-types/vertical-menu.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/css/core/colors/palette-gradient.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets/css/pages/hospital.css') }}">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('') }}">
+    <!-- END: Custom CSS-->
+    {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+
+
+</head>
+<body class="vertical-layout vertical-menu 2-columns   fixed-navbar" data-open="click" data-menu="vertical-menu" data-col="2-columns">
+
+{% include '_partials' %}
+{% include '_partials' %}
+<div class="app-content content">
+    <div class="content-overlay"></div>
+    <div class="content-wrapper">
+        {% include '_partials' %}
+        <div class="content-body">
+            {% block body %}{% endblock %}
+        </div>
+    </div>
+</div>
+<div class="sidenav-overlay"></div>
+<div class="drag-target"></div>
+
+{{ include('slimer/_partials/_footer.html.twig') }}
+
+<!-- BEGIN: Vendor JS-->
+<script src="{{ asset('app-assets/vendors/js/vendors.min.js') }}"></script>
+<!-- BEGIN Vendor JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<script src="{{ asset('app-assets/vendors/js/charts/chart.min.js') }}"></script>
+<!-- END: Page Vendor JS-->
+
+<!-- BEGIN: Theme JS-->
+<script src="{{ asset('app-assets/js/core/app-menu.js') }}"></script>
+<script src="{{ asset('app-assets/js/core/app.js') }}"></script>
+<!-- END: Theme JS-->
+
+<!-- BEGIN: Page JS-->
+<script src="{{ asset('app-assets/js/scripts/pages/appointment.js') }}"></script>
+<!-- END: Page JS-->
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,199 @@
+{% extends 'website/base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+    <section class="home" id="home">
+        <div class="content">
+            <h3>L'Ordre des Chevaliers de Saint Jean International et dames Auxilliaire du <span>Togo</span></h3>
+            <a href="#" class="btn">Nous contacté</a>
+        </div>
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/1.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/2.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/3.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/4.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/5.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/6.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/7.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/8.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/9.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/10.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/11.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/12.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/13.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/14.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/15.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/16.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/18.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/19.jpg') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/main-slider/20.jpg') }}" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="counters">
+        <div class="container">
+            <div>
+                <i class="fab fa-youtube fa-4x"></i>
+                <div class="counter" data-target="78">0</div>
+                <h3>Commanderie</h3>
+            </div>
+            <div>
+                <i class="fab fa-twitter fa-4x"></i>
+                <div class="counter" data-target="71">0</div>
+                <h3>Auxiliarie</h3>
+            </div>
+            <div>
+                <i class="fab fa-facebook fa-4x"></i>
+                <div class="counter" data-target="18562">0</div>
+                <h3>Membres</h3>
+            </div>
+            <div>
+                <i class="fab fa-linkedin fa-4x"></i>
+                <div class="counter" data-target="214">0</div>
+                <h3>Aumonier</h3>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="{{ asset('assets/images/event-image-2.jpg') }}" alt="">
+            </div>
+
+            <div class="content">
+                <h3>we will give a very special celebration for you</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam labore fugiat ut esse perferendis perspiciatis provident dolores fuga in facilis culpa possimus, quia praesentium itaque, sapiente quasi harum rem asperiores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero expedita incidunt provident quibusdam aut odit, numquam nesciunt similique nisi.</p>
+                <a href="#" class="btn">contact us</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="service" id="service">
+        <h1 class="heading">But et <span>objectifs</span></h1>
+
+        <div class="service-slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Sens de l'Amour du prochain</h3>
+                    <p>Cultiver l'Amour parmis ses membres et ceux de l'eglise Catholique Romaine</p>
+                </div>
+                <div class="swiper-slide box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Défendre les intèrêt de l'Eglise</h3>
+                    <p>Faire rayonner les inérêts spirituels et matériels de l'Eglise</p>
+                    <p>Promouvoir unplus généreux et filial respect pour l'autorité spirituelle de l'Eglise</p>
+                </div>
+                <div class="swiper-slide box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Le sens de la fraternité</h3>
+                    <p>Créer et développer un sentiments de fraternité et de solidarité parmi les différentyes commanderies et parmi les membres pour améliorer leurs conditions de vie morale, mentale, sociale/p>
+                </div>
+                <div class="swiper-slide box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Assurance maladie ou décès</h3>
+                    <p>Aider, assister et supporter les membres, leurs familles et les ayants-droit en cas de maladie ou de décès</p>
+                </div>
+                <div class="swiper-slide box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Défendre les intèrêt de l'Eglise</h3>
+                    <p>Encourager et développer l'esprit d'amour de la Patrie et de ses institutions et étendre au monde entier l'esprit de bonne volonté</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="event" id="event">
+
+        <h1 class="heading"> Evènement <span>récent</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="{{ asset('assets/images/old-soa.jpeg') }}" alt="">
+                <h3 class="title">1 <sup>er</sup> Forum des prêtres</h3>
+                <h3 class="amount">$250.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>full services</li>
+                    <li> <i class="fas fa-check"></i> decorations </li>
+                    <li> <i class="fas fa-check"></i> music and photos </li>
+                    <li> <i class="fas fa-check"></i> food and drinks </li>
+                    <li> <i class="fas fa-check"></i> invitation card </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <img src="{{ asset('assets/images/old-soa.jpeg') }}" alt="">
+                <h3 class="title">Sommet Ouest africain</h3>
+                <h3 class="amount">$450.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>full services</li>
+                    <li> <i class="fas fa-check"></i> decorations </li>
+                    <li> <i class="fas fa-check"></i> music and photos </li>
+                    <li> <i class="fas fa-check"></i> food and drinks </li>
+                    <li> <i class="fas fa-check"></i> invitation card </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <img src="{{ asset('assets/images/old-soa.jpeg') }}" alt="">
+                <h3 class="title">Journée Militaire du régiments</h3>
+                <h3 class="amount">$650.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>full services</li>
+                    <li> <i class="fas fa-check"></i> decorations </li>
+                    <li> <i class="fas fa-check"></i> music and photos </li>
+                    <li> <i class="fas fa-check"></i> food and drinks </li>
+                    <li> <i class="fas fa-check"></i> invitation card </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <img src="{{ asset('assets/images/old-soa.jpeg') }}" alt="">
+                <h3 class="title">for others</h3>
+                <h3 class="amount">$850.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>Grande Convention 2023</li>
+                    <li> <i class="fas fa-check"></i> decorations </li>
+                    <li> <i class="fas fa-check"></i> music and photos </li>
+                    <li> <i class="fas fa-check"></i> food and drinks </li>
+                    <li> <i class="fas fa-check"></i> invitation card </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section class="newsletter" id="newsletter">
+        <div class="parallax">
+            <div class="parallax-data">
+                <h2>Souscrire à la newsletter</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, fugiat.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    {% include 'website/_partials/contactForm.html.twig' %}
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+{% endblock %}
+
+{% block javascripts %}
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+{% endblock %}

@@ -2,16 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfedf0e-d1c7-43cb-9f9d-9df9eae34dec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ksji-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ksji-website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/bx_loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/caousel-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/caousel-prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/child.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/child2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/clients/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/divider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/donate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/paperplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/team1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/team2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/team3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/app-profile-screen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/avatar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/avatar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/avatar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/avatar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/avatar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/avatar-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/bg-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/bg-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/blog-bg-children-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/blog-bg-school-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/button-tray-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/button-tray-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/carousel-tn-children-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/donor_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/flikr1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/flikr2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/flikr3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/flikr4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/flikr5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/flikr6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/gal-bg-feet-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/gal-bg-hands-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/gal-bg-man-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/gal-bg-women.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/gal-tn-children-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/gal-tn-man-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/go.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/nav-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/nav-dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/progress-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/progress-bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/progress.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/sea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/slide3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/supersized-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/thumb-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/thumb-forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/white.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminAccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Website/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/MenuCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MenuCategoryRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MenuRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_partials/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/_partials/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/_partials/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backOffice.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/backOffice.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/slimer/_partials/_footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_partials/_footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/slimer/_partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_partials/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/slimer/_partials/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_partials/menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/slimer/_partials/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_partials/nav.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/slimer/account/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/account/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/slimer/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/slimer/admin/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin/menu.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -155,10 +265,13 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="2KHEW8QJHzXE8otpmjkoEd0xunb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -168,10 +281,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/images" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\htdocs\ksji-website\templates\slimer" />
+      <recent name="D:\htdocs\ksji-website\templates\admin" />
+      <recent name="D:\htdocs\ksji-website\templates\website" />
+      <recent name="D:\htdocs\ksji-website\src\Controller\Website" />
+      <recent name="D:\htdocs\ksji-website\src\Controller\Admin" />
+      <recent name="D:\htdocs\ksji-website\src\Controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\htdocs\ksji-website\public\assets\images" />
+      <recent name="D:\htdocs\ksji-website\templates\website\home" />
     </key>
   </component>
   <component name="RunManager">
@@ -202,11 +324,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673623144572</updated>
-      <workItem from="1673623158440" duration="19820000" />
+      <workItem from="1673623158440" duration="20871000" />
+      <workItem from="1674357313787" duration="37314000" />
+      <workItem from="1674546853748" duration="11900000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="517" y="284" key="NewPhpFileDialog" timestamp="1674357688105">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="284" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1674357688105" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1674550167151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1674550167151" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/website/home/event.html.twig</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
