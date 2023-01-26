@@ -1,10 +1,101 @@
 {% extends 'website/base.html.twig' %}
 {% block body %}
-<section class="header-img" id="header-img">
-    <div class="content">
-        <h1>Historique de l'ordre au <span>Togo</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequuntur, deleniti dolorum eaque exercitationem incidunt reprehenderit! Ab laboriosam officiis ratione. </p>
-        <a href="#" class="btn">Nous contacter</a>
-    </div>
-</section>
+    <section class="header-img" id="header-img">
+        <div class="content">
+            <h1>Historique de l'ordre au <span>Togo</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequuntur, deleniti dolorum eaque exercitationem incidunt reprehenderit! Ab laboriosam officiis ratione. </p>
+            <a href="#" class="btn">Nous contacter</a>
+        </div>
+
+    </section>
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="{{ asset('assets/images/event-image-2.jpg') }}" alt="">
+            </div>
+
+            <div class="content">
+                <h3>we will give a very special celebration for you</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam labore fugiat ut esse perferendis perspiciatis provident dolores fuga in facilis culpa possimus, quia praesentium itaque, sapiente quasi harum rem asperiores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero expedita incidunt provident quibusdam aut odit, numquam nesciunt similique nisi.</p>
+                <a href="#" class="btn">contact us</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="review" id="review">
+
+        <h1 class="heading">client's <span>review</span></h1>
+
+        <div class="review-slider swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="{{ asset('assets/images/event-image-2.jpg') }}" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy clients</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="{{ asset('assets/images/event-image-2.jpg') }}" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy clients</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="{{ asset('assets/images/event-image-2.jpg') }}" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy clients</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="{{ asset('assets/images/event-image-2.jpg') }}" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy clients</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+{% endblock %}
+
+{% block javascripts %}
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 {% endblock %}

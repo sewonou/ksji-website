@@ -52,6 +52,28 @@ var swiper = new Swiper(".service-slider", {
     }
 });
 
+var swiper = new Swiper(".review-slider", {
+    slidesPerView: 1,
+    grabCursor: true,
+    loop:true,
+    spaceBetween: 10,
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        700: {
+            slidesPerView: 2,
+        },
+        1050: {
+            slidesPerView: 3,
+        },
+    },
+    autoplay:{
+        delay: 5000,
+        disableOnInteraction:false,
+    }
+});
+
 const counters = document.querySelectorAll('.counter');
 const speed = 20; // The lower the slower
 
@@ -73,28 +95,3 @@ counters.forEach(counter => {
 
     updateCounter();
 });
-/*counters.forEach(counter => {
-    const updateCount = () => {
-        const target = +counter.getAttribute('data-target');
-        const count = +counter.innerText;
-
-        // Lower inc to slow and higher to slow
-        const inc = target / speed;
-
-        // console.log(inc);
-        // console.log(count);
-
-        // Check if target is reached
-        if (count < target) {
-            // Add inc to count and output in counter
-            counter.innerText = count + inc;
-            // Call function every ms
-            setTimeout(updateCount, 1);
-        } else {
-            counter.innerText = target;
-        }
-    };
-
-    updateCount();
-});*/
-

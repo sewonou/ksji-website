@@ -31,10 +31,42 @@ class HomeController extends AbstractController
         ]);
     }
 
-    #[Route('/event-detail', name: 'app_event_detail')]
-    public function event_detail():Response
+    #[Route('/event/{id}', name: 'app_event_single')]
+    public function event_single():Response
     {
         return $this->render('website/home/event_single.html.twig',[
+
+        ]);
+    }
+
+    #[Route('/gallery', name: 'app_gallery')]
+    public function gallery():Response
+    {
+        return $this->render('website/home/gallery.html.twig',[
+
+        ]);
+    }
+
+    #[Route('/blog', name: 'app_blog')]
+    public function blog():Response
+    {
+        return $this->render('website/home/blog.html.twig',[
+
+        ]);
+    }
+
+    #[Route('/blog/{id}', name: 'app_blog_single')]
+    public function blog_single():Response
+    {
+        return $this->render('website/home/blog_single.html.twig',[
+
+        ]);
+    }
+
+    #[Route('/contact', name: 'app_contact')]
+    public function contact():Response
+    {
+        return $this->render('website/home/contact.html.twig',[
 
         ]);
     }

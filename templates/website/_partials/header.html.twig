@@ -1,13 +1,13 @@
 <header class="header">
     <a href="" class="logo"><span>KSJI</span>-Togo</a>
     <nav class="navbar">
-        <a href="{{ path('app_home') }}">Accueil</a>
+        <a href="{{ path('app_home') }}" class="active">Accueil</a>
         <a href="{{ path('app_about') }}">Historique</a>
-        <a href=""></a>
         <a href="{{ path('app_event') }}">Evènements</a>
-        <a href="">Gallerie</a>
-        <a href="">Contact</a>
-        <a href="">Nous Soutenir</a>
+        <a href="{{ path('app_gallery') }}">Gallerie</a>
+       {# <a href="{{ path('app_blog') }}">Blog</a>#}
+        <a href="{{ path('app_contact') }}">Contact</a>
+        <a href="" class="btn-donate">Nous Soutenir</a>
     </nav>
     <div id="menu-bars" class="fa fa-bars"></div>
 </header>

@@ -29,7 +29,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	box-sizing: border-box;
 	outline: none; border: none;
 	text-decoration: none;
-	text-transform: none;
+	text-transform: capitalize;
 	transition: .2s linear;
 }
 
@@ -366,6 +366,68 @@ footer{
 	padding-right: .5rem;
 }
 
+.gallery .box-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+	gap:1.5rem;
+}
+
+.gallery .box-container .box{
+	position: relative;
+	border:1rem solid #333;
+	border-radius: .5rem;
+	height: 25rem;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.gallery .box-container .box img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.gallery .box-container .box:hover img{
+	transform: scale(1.1);
+	filter: grayscale();
+}
+
+.gallery .box-container .box .title{
+	position: absolute;
+	top:-10rem; left:0; right: 0;
+	background:#333;
+	color:#fff;
+	text-align: center;
+	padding-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.gallery .box-container .box:hover .title{
+	top:0;
+}
+
+.gallery .box-container .box .icons{
+	position: absolute;
+	bottom:-10rem; left:0; right: 0;
+	background:#333;
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.gallery .box-container .box:hover .icons{
+	bottom: 0;
+}
+
+.gallery .box-container .box .icons a{
+	font-size: 2rem;
+	margin:.5rem 1rem;
+	color:#fff;
+}
+
+.gallery .box-container .box .icons a:hover{
+	color:var(--main-color);
+}
+
 .newsletter .parallax{
 	display: flex;
 	align-items: center;
@@ -403,6 +465,52 @@ footer{
 	margin: 5px;
 	text-align: center;
 	text-transform: none;
+}
+
+
+.review .box{
+	border-radius: .5rem;
+	background: #333;
+	padding:2rem;
+	position: relative;
+}
+
+.review .box .fa-quote-right{
+	position: absolute;
+	top:2rem; right: 2rem;
+	color:var(--main-color);
+	font-size: 5rem;
+}
+
+.review .box .user{
+	display: flex;
+	align-items: center;
+	gap:1.5rem;
+	padding-bottom: 1rem;
+}
+
+.review .box .user img{
+	height:7rem;
+	width: 7rem;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.review .box .user h3{
+	font-size: 2rem;
+	color:#fff;
+}
+
+.review .box .user span{
+	font-size: 1.5rem;
+	color:#eee;
+}
+
+.review .box p{
+	line-height: 2;
+	color:#eee;
+	padding:.5rem 0;
+	font-size: 1.6rem;
 }
 
 .contact form{
@@ -448,7 +556,60 @@ footer{
 	resize: none;
 }
 
+.event-blog .box-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	gap: 1.5rem;
+}
 
+.event-blog .box-container .box{
+	border: #fff solid 1px;
+	box-shadow: 12px 12px 2px 1px rgba(35, 35, 35, .2);
+}
+
+.event-blog .box-container .box .image{
+	height: 25rem;
+	overflow: hidden;
+	width: 100%;
+}
+
+.event-blog .box-container .box .image img{
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+
+.event-blog .box-container .box:hover .image img{
+	transform: scale(1.2);
+}
+
+.event-blog .box-container .box .content{
+	padding: 2rem;
+}
+
+.event-blog .box-container .box .content .title{
+	font-size: 2.5rem;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.event-blog .box-container .content .title:hover{
+	color: var(--main-color)
+}
+
+.event-blog .box-container .content span{
+	color: var(--main-color);
+	display: block;
+	padding-top: 1rem;
+	font-size: 2rem;
+}
+
+.event-blog .box-container .content p{
+	font-size: 1.6rem;
+	line-height: 1.8;
+	color: #ccc;
+	padding: 1rem 0;
+}
 .footer{
 	background:#111;
 
