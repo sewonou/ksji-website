@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Admin Panel | {% block title %}{% endblock %}</title>
@@ -36,12 +36,12 @@
 </head>
 <body class="vertical-layout vertical-menu 2-columns   fixed-navbar" data-open="click" data-menu="vertical-menu" data-col="2-columns">
 
-{% include '_partials' %}
-{% include '_partials' %}
+{% include 'admin/_partials/nav.html.twig' %}
+{% include 'admin/_partials/menu.html.twig' %}
 <div class="app-content content">
     <div class="content-overlay"></div>
     <div class="content-wrapper">
-        {% include '_partials' %}
+        {% include 'admin/_partials/header.html.twig' %}
         <div class="content-body">
             {% block body %}{% endblock %}
         </div>
@@ -50,7 +50,7 @@
 <div class="sidenav-overlay"></div>
 <div class="drag-target"></div>
 
-{{ include('slimer/_partials/_footer.html.twig') }}
+{{ include('admin/_partials/_footer.html.twig') }}
 
 <!-- BEGIN: Vendor JS-->
 <script src="{{ asset('app-assets/vendors/js/vendors.min.js') }}"></script>

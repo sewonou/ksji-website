@@ -14,19 +14,10 @@ class AdminController extends AbstractController
     #[Route('/admin', name: 'app_admin')]
     public function index(): Response
     {
-        return $this->render('slimer/admin/index.html.twig', [
+        return $this->render('admin/admin/index.html.twig', [
 
         ]);
     }
 
-    /**
-     * @return Response
-     */
-    #[Route('/admin/menu', name: 'app_menu')]
-    public function menu(): Response
-    {
-        return $this->render('slimer/admin/menu.html.twig', [
-            'page' => 'Menu',
-        ]);
-    }
+
 }
