@@ -11,7 +11,7 @@ class AdminCommentController extends AbstractController
     #[Route('/admin/comment', name: 'app_admin_comment')]
     public function index(): Response
     {
-        return $this->render('admin_comment/index.html.twig', [
+        return $this->render('admin/comment/index.html.twig', [
             'controller_name' => 'AdminCommentController',
         ]);
     }

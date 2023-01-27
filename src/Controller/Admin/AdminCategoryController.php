@@ -11,7 +11,7 @@ class AdminCategoryController extends AbstractController
     #[Route('/admin/category', name: 'app_admin_category')]
     public function index(): Response
     {
-        return $this->render('admin_category/index.html.twig', [
+        return $this->render('admin/category/index.html.twig', [
             'controller_name' => 'AdminCategoryController',
         ]);
     }

@@ -11,7 +11,7 @@ class AdminMediaController extends AbstractController
     #[Route('/admin/media', name: 'app_admin_media')]
     public function index(): Response
     {
-        return $this->render('admin_media/index.html.twig', [
+        return $this->render('admin/media/index.html.twig', [
             'controller_name' => 'AdminMediaController',
         ]);
     }
