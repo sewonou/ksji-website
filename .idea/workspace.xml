@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adfedf0e-d1c7-43cb-9f9d-9df9eae34dec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminCategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminCommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminCommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminMediaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminMediaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminMenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminMenuController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminPageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminPostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminTypeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +220,7 @@
       <workItem from="1674546853748" duration="13440000" />
       <workItem from="1674631850603" duration="7416000" />
       <workItem from="1674720116405" duration="11252000" />
-      <workItem from="1674808227897" duration="8058000" />
+      <workItem from="1674808227897" duration="8169000" />
     </task>
     <servers />
   </component>
