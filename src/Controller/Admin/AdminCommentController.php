@@ -12,7 +12,7 @@ class AdminCommentController extends AbstractController
     public function index(): Response
     {
         return $this->render('admin/comment/index.html.twig', [
-            'controller_name' => 'AdminCommentController',
+
         ]);
     }
 }

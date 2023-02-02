@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfedf0e-d1c7-43cb-9f9d-9df9eae34dec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app-assets/js/scripts/pages/pages-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminMenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminMenuController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminPostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminTypeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-assets/js/scripts/pages/hospital-patients-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminCommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminCommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminMediaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminMediaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminPageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/_partials/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_partials/menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/account/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/account/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/category/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/category/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/category/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/category/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/category/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/category/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/comment/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/comment/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/comment/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/comment/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/comment/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/comment/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/media/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/media/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/media/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/media/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/menu/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/menu/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/menu/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/menu/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/menu/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/menu/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/page/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/page/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/page/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/page/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/page/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/page/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/post/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/post/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/post/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/post/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/type/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/type/index.html.twig" afterDir="false" />
     </list>
@@ -195,20 +184,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/admin/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/app-assets/js/scripts/pages" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\htdocs\ksji-website\templates\admin" />
+      <recent name="D:\htdocs\ksji-website\src\Controller\Admin" />
+      <recent name="D:\htdocs\ksji-website\templates\admin\menu" />
+      <recent name="D:\htdocs\ksji-website\templates\website" />
+      <recent name="D:\htdocs\ksji-website\src\Controller\Website" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\htdocs\ksji-website\public\app-assets\js\scripts\pages" />
       <recent name="D:\htdocs\ksji-website\templates\admin\post" />
       <recent name="D:\htdocs\ksji-website\templates\website\home" />
       <recent name="D:\htdocs\ksji-website\public\assets\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\htdocs\ksji-website\templates\admin\menu" />
-      <recent name="D:\htdocs\ksji-website\templates\admin" />
-      <recent name="D:\htdocs\ksji-website\src\Controller\Admin" />
-      <recent name="D:\htdocs\ksji-website\templates\website" />
-      <recent name="D:\htdocs\ksji-website\src\Controller\Website" />
     </key>
   </component>
   <component name="RunManager">
@@ -244,7 +234,9 @@
       <workItem from="1674546853748" duration="13440000" />
       <workItem from="1674631850603" duration="7416000" />
       <workItem from="1674720116405" duration="11252000" />
-      <workItem from="1674808227897" duration="10220000" />
+      <workItem from="1674808227897" duration="10444000" />
+      <workItem from="1675241078156" duration="8837000" />
+      <workItem from="1675323698825" duration="10355000" />
     </task>
     <servers />
   </component>
@@ -260,5 +252,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1674550167151" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/admin/media/index.html.twig</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

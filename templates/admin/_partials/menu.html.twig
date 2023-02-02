@@ -9,29 +9,21 @@
             </li>
             <li class=" nav-item"><a href="#"><i class="la la-edit"></i><span class="menu-title" data-i18n="articles">Articles</span></a>
                 <ul class="menu-content">
-                    <li><a class="menu-item" href="#"><i></i><span>Tous les articles</span></a></li>
+                    <li><a class="menu-item" href="{{ path('app_admin_post') }}"><i></i><span>Tous les articles</span></a></li>
                     <li><a class="menu-item" href="#"><i></i><span>Ajouter</span></a></li>
-                    <li><a class="menu-item" href="#"><i></i><span>Catégories</span></a></li>
                     <li><a class="menu-item" href="#"><i></i><span>Etiquettes</span></a></li>
-                </ul>
-            </li>
-            <li class=" nav-item"><a href="#"><i class="la la-photo"></i><span class="menu-title" data-i18n="medias">Médias</span></a>
-                <ul class="menu-content">
-                    <li><a class="menu-item" href="#"><i></i><span>Médiathèque</span></a></li>
-                    <li><a class="menu-item" href="#"><i></i><span>Ajouter</span></a></li>
                 </ul>
             </li>
             <li class=" nav-item"><a href="#"><i class="la la-paperclip"></i><span class="menu-title" data-i18n="pages">Pages</span></a>
                 <ul class="menu-content">
-                    <li><a class="menu-item" href="#"><i></i><span>Toutes les pages</span></a></li>
+                    <li><a class="menu-item" href="{{ path('app_admin_page') }}"><i></i><span>Toutes les pages</span></a></li>
                     <li><a class="menu-item" href="#"><i></i><span>Ajouter</span></a></li>
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="la la-comments"></i><span class="menu-title" data-i18n="comments">Commentaires</span></a></li>
+            <li class=" nav-item"><a href="{{ path('app_admin_comment') }}"><i class="la la-comments"></i><span class="menu-title" data-i18n="comments">Commentaires</span></a></li>
             <li class=" nav-item"><a href="#"><i class="la la-bar-chart"></i><span class="menu-title" data-i18n="appearence">Apparence</span></a>
                 <ul class="menu-content">
-                    <li><a class="menu-item" href=""><i></i><span>Menus</span></a></li>
-                    <li><a class="menu-item" href="#"><i></i><span>Catégories de Menus</span></a></li>
+                    <li><a class="menu-item" href="{{ path('app_admin_menu') }}"><i></i><span>Menus</span></a></li>
                     <li><a class="menu-item" href="#"><i></i><span>Personnaliser</span></a></li>
                 </ul>
             </li>
@@ -49,11 +41,13 @@
                     </li>
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="la la-archive"></i><span class="menu-title" data-i18n="articles">Réglages</span></a>
+            <li class=" nav-item"><a href="#"><i class="la la-gears"></i><span class="menu-title" data-i18n="articles">Réglages</span></a>
                 <ul class="menu-content">
-                    <li><a class="menu-item" href="#"><i></i><span>Génaral</span></a></li>
-                    <li><a class="menu-item" href="#"><i></i><span>Commentaires</span></a></li>
-                    <li><a class="menu-item" href="#"><i></i><span>Médias</span></a></li>
+                    <li><a class="menu-item" href="{{ path('app_admin_general') }}"><i></i><span>Général</span></a></li>
+                    <li><a class="menu-item" href="{{ path('app_admin_comment') }}"><i></i><span>Commentaires</span></a></li>
+                    <li><a class="menu-item" href="{{ path('app_admin_media') }}"><i></i><span>Médias</span></a></li>
+                    <li><a class="menu-item" href="{{ path('app_admin_category') }}"><i></i><span>Catégories</span></a></li>
+                    <li><a class="menu-item" href="{{ path('app_admin_type') }}"><i></i><span>Types</span></a></li>
                 </ul>
             </li>
             <li class=" navigation-header"><span data-i18n="administration">Administration</span><i class="la la-ellipsis-h" data-toggle="tooltip" data-placement="right" data-original-title="administration"></i>
@@ -82,20 +76,35 @@
                     <li><a href="" class="menu-item"><i></i><span data-i18n="">Ajouter</span ></a></li>
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="la la-envelope"></i><span class="menu-title" data-i18n="Inbox">Les ONG Membres</span></a>
+            <li class=" nav-item"><a href="#"><i class="la la-envelope"></i><span class="menu-title" data-i18n="Inbox">Les intances</span></a>
                 <ul class="menu-content">
-                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Toutes les ONG Membres</span ></a></li>
-                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Ajouter</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Sections</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Toutes les Instances</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Commanderie subordonnées</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Grandes Commanderies</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Brigades</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Régiments</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Bataillons</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Commanderies</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Auxilliairies</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Commanderies Cadets </span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Axilliaire Juniors </span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Ajouter une instances</span ></a></li>
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="la la-comments"></i><span class="menu-title" data-i18n="Chat">Les thématiques</span></a>
+            <li class=" nav-item"><a href="#"><i class="la la-comments"></i><span class="menu-title" data-i18n="Chat">Les Membres</span></a>
                 <ul class="menu-content">
-                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Toutes les thématiques</span ></a></li>
-                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Ajouter</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Les Genres</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Tous les membres</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Tous les Chevaliers</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Toutes les Dames</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Tous les Cadets</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Tous les Juniors</span ></a></li>
+                    <li><a href="" class="menu-item"><i></i><span data-i18n="">Ajouter un membre</span ></a></li>
+
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="la la-file-text"></i><span class="menu-title" data-i18n="Kanban"></span></a>
-            </li>
+
 
         </ul>
     </div>

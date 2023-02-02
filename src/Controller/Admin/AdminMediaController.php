@@ -12,7 +12,7 @@ class AdminMediaController extends AbstractController
     public function index(): Response
     {
         return $this->render('admin/media/index.html.twig', [
-            'controller_name' => 'AdminMediaController',
+
         ]);
     }
 }
