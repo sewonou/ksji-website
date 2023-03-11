@@ -2,60 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfedf0e-d1c7-43cb-9f9d-9df9eae34dec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminCategoryController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminCommentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminGeneralController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminMediaController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminMenuController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminPageController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminPostController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminTypeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Media.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Menu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Type.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/CategoryType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/CommentType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/MediaType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/MenuType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/PageType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/PostType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/TypeType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CommentRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/MediaRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/MenuRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PageRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PostRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/TypeRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-assets/vendors/css/vendors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/vendors/css/vendors.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/_partials/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_partials/menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/category/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/category/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/category/new.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/comment/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/comment/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/comment/new.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/general/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/media/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/media/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/menu/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/menu/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/menu/new.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/page/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/page/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/page/new.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/post/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/post/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/post/new.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/type/index.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,15 +175,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/admin/account" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\htdocs\ksji-website\templates\admin\account" />
       <recent name="D:\htdocs\ksji-website" />
       <recent name="D:\htdocs\ksji-website\public\app-assets\js\scripts\pages" />
       <recent name="D:\htdocs\ksji-website\templates\admin\post" />
       <recent name="D:\htdocs\ksji-website\templates\website\home" />
-      <recent name="D:\htdocs\ksji-website\public\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\htdocs\ksji-website\templates\admin" />
@@ -278,7 +229,7 @@
       <workItem from="1674808227897" duration="10444000" />
       <workItem from="1675241078156" duration="8837000" />
       <workItem from="1675323698825" duration="10355000" />
-      <workItem from="1678548732493" duration="2665000" />
+      <workItem from="1678548732493" duration="4748000" />
     </task>
     <servers />
   </component>
@@ -286,6 +237,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1779" y="120" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1678561168824">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1779" y="120" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1678561168824" />
     <state x="517" y="284" key="NewPhpFileDialog" timestamp="1674357688105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
