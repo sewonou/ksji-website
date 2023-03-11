@@ -41,17 +41,10 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
      */
     private Collection $userRoles;
 
-    #[ORM\OneToMany(mappedBy: 'author', targetEntity: Page::class)]
-    private Collection $pages;
-
-    #[ORM\OneToMany(mappedBy: 'author', targetEntity: Post::class)]
-    private Collection $posts;
 
     public function __construct()
     {
         $this->userRoles = new ArrayCollection();
-        $this->pages = new ArrayCollection();
-        $this->posts = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -148,63 +141,4 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         return $this;
     }
 
-    /**
-     * @return Collection<int, Page>
-     */
-    public function getPages(): Collection
-    {
-        return $this->pages;
-    }
-
-    public function addPage(Page $page): self
-    {
-        if (!$this->pages->contains($page)) {
-            $this->pages->add($page);
-            $page->setAuthor($this);
-        }
-
-        return $this;
-    }
-
-    public function removePage(Page $page): self
-    {
-        if ($this->pages->removeElement($page)) {
-            // set the owning side to null (unless already changed)
-            if ($page->getAuthor() === $this) {
-                $page->setAuthor(null);
-            }
-        }
-
-        return $this;
-    }
-
-    /**
-     * @return Collection<int, Post>
-     */
-    public function getPosts(): Collection
-    {
-        return $this->posts;
-    }
-
-    public function addPost(Post $post): self
-    {
-        if (!$this->posts->contains($post)) {
-            $this->posts->add($post);
-            $post->setAuthor($this);
-        }
-
-        return $this;
-    }
-
-    public function removePost(Post $post): self
-    {
-        if ($this->posts->removeElement($post)) {
-            // set the owning side to null (unless already changed)
-            if ($post->getAuthor() === $this) {
-                $post->setAuthor(null);
-            }
-        }
-
-        return $this;
-    }
 }
